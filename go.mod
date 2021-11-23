@@ -1,4 +1,4 @@
-module gitlab.com/shoesmart2.1/backend/packages
+module gitlab.com/shoesmart2.1/backend/shm-package-svc
 
 go 1.17
 
