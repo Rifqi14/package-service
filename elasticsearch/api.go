@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/elastic/go-elasticsearch/v7"
-	"gitlab.com/shoesmart2.1/backend/packages/interfacepkg"
+	"gitlab.com/s2.1-backend/shm-package-svc/interfacepkg"
 	"strings"
 )
 
