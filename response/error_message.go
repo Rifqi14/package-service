@@ -3,7 +3,7 @@ package response
 import (
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
-	"gitlab.com/shoesmart2.1/backend/packages/str"
+	"gitlab.com/s2.1-backend/shm-package-svc/str"
 	"reflect"
 	"strings"
 )
