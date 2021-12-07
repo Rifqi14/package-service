@@ -44,4 +44,6 @@ var (
 	InvalidFileExtension    = "Invalid file extension!"
 	EmailUnverified         = "email unverified"
 	HttpRequestError        = "http request error"
+	DataStored              = "your data has been success stored!"
+	DataStoredError         = "Oops, your data was rejected. Check the completeness of your data"
 )
