@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-const OauthGoogleUrlAPI = "https://people.googleapis.com/v1/people/me?personFields=names%2CemailAddresses%2Cgenders%2Cbirthdays&access_token="
+const OauthGoogleUrlAPI = "https://people.googleapis.com/v1/people/me?personFields=names,emailAddresses,genders,birthdays&access_token="
 
 func GetGoogleProfile(token string) (res map[string]interface{}, err error) {
 	response, err := http.Get(OauthGoogleUrlAPI + token)
